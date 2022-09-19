@@ -20,9 +20,13 @@ def fastFourierTransform(image_path, display_output, parse_fft) :
             cv2.destroyAllWindows()
 
 
-path = "letters"
-fastFourierTransform(path, True, True)
-
-
-
+            
+if __name__ == "__main__" :
+    runCode = False
+    if runCode :
+        path = "letters"
+        fastFourierTransform(path, True, True)
+    else:
+        pass
     
+   
